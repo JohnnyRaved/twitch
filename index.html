@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="us">
+<head>
+    <meta charset="utf-8">
+    <title>Twitch Status</title>
+    <link href="jquery-ui.css" rel="stylesheet">
+    <link href="twitch.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+</head>
+<body>
+<div id="draggable" class="ui-widget-content">
+    <div id="tabs">
+        <ul>
+            <li><a href="#all">All</a></li>
+            <li><a href="#online">Online</a></li>
+            <li><a href="#offline">Offline</a></li>
+        </ul>
+
+        <div id="all"></div>
+        <div id="online"></div>
+        <div id="offline"></div>
+    </div>
+</div>
+<script src="external/jquery/jquery.js"></script>
+<script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="twitch.js"></script>
+
+</body>
+</html>
